@@ -4,8 +4,8 @@
          xsi:schemaLocation="http://apache.org http://apache.org">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>ru.univer</groupId>
-    <artifactId>lab1-6</artifactId>
+    <groupId>com.laboratory</groupId>
+    <artifactId>string-processor</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
@@ -15,16 +15,10 @@
     </properties>
 
     <dependencies>
-        <!-- JUnit 5 для UNIT-тестов -->
+        <!-- JUnit 5 dependency for Unit Testing -->
         <dependency>
             <groupId>org.junit.jupiter</groupId>
-            <artifactId>junit-jupiter-api</artifactId>
-            <version>5.10.2</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.junit.jupiter</groupId>
-            <artifactId>junit-jupiter-engine</artifactId>
+            <artifactId>junit-jupiter</artifactId>
             <version>5.10.2</version>
             <scope>test</scope>
         </dependency>
@@ -32,6 +26,7 @@
 
     <build>
         <plugins>
+            <!-- Surefire plugin to execute tests during maven lifecycle -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>

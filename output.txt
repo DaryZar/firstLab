@@ -1,0 +1,18 @@
+Source line: java;;54.32***16-45???75.85&&&25-90!!!code+++12
+Delimiters: ;*?&+!
+
+1. Real numbers found: [54.32, 75.85, 12.0]
+2. Valid time tokens (HH-MM): [16-45]
+3. Sorted non-number tokens: [16-45, 25-90, code, java]
+
+-> Random number 22 added after the first real number (54.32)
+-> Shortest token '12' removed from the line.
+Final modified line: java;;54.32 22***16-45???75.85&&&25-90!!!code+++
+
+--- 📊 Formatting Demonstration (Locale: UK) ---
+ String.format method: 54,32
+ Currency (UK): £54.32
+ Percentage: 54%
+ DecimalFormat class: 54,32
+
+ Reverse demonstration: 'Variant7' -> 7tnairaV
